@@ -212,12 +212,12 @@ td { padding:8px 5px; text-align:right; color:var(--text-main); border-bottom:1p
 <script>
 const COLORS = { int: '#E24B4A', pri: '#378ADD', tax: '#1D9E75', oop: '#EF9F27', sal: '#A855F7', spd: '#00E5FF', rem: '#FFFFFF' };
 const DEFAULTS = { 
-    loanAmt: 65000, exchRate: 375, termVal: 144, 
-    initialBal: 400000,
+    loanAmt: 65000, exchRate: 370, termVal: 180, 
+    initialBal: 300000,
     startDate: new Date().toISOString().split('T')[0],
     ratePeriods: [{month:1, rate: 14}],
-    incomePeriods: [{month:1, tax: 163000, salary: 600000}],
-    spendPeriods: [{month:1, amount: 380000}]
+    incomePeriods: [{month:1, tax: 150000, salary: 500000}],
+    spendPeriods: [{month:1, amount: 350000}]
 };
 
 let cur='USD', dispCur='AMD', unit='months';
